@@ -1,0 +1,7 @@
+// vim: filetype=xkb
+xkb_symbols "kr-hangul-hanja"
+{
+  include "us(basic)"
+  include "kr(ralt_hangul)"
+  include "kr(rctrl_hanja)"
+};
