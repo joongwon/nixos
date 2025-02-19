@@ -21,10 +21,7 @@
   };
 
   services.xserver.enable = true;
-  services.xserver.windowManager.i3 = {
-    enable = true;
-    configFile = ./i3.config;
-  };
+  services.xserver.windowManager.i3.enable = true;
   services.xserver.videoDrivers = [ "nvidia" ];
   services.xserver.xkb = {
     layout = "kr-hangul-hanja";
