@@ -8,7 +8,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  networking.hostName = "freleefty-home";
+  networking.hostName = "freleefty-nixos";
   networking.networkmanager.enable = true;
 
   time.timeZone = "Asia/Seoul";
