@@ -52,9 +52,7 @@
   users.users.joongwon = {
     isNormalUser = true;
     extraGroups = [ "wheel" "audio" ];
-    packages = with pkgs; [
-      discord
-    ];
+    packages = with pkgs; [];
   };
 
   programs.firefox = {
@@ -81,7 +79,7 @@
     i3status
     git
     xsel
-    wine
+    wineWowPackages.stable
     winetricks
   ];
 
